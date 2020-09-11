@@ -9,6 +9,8 @@ import re
 richardson_sample = "r_sample.osm"
 richardson = "richardson.osm"
 
+# Check phone numbers:
+
 phone_re = re.compile(r'^\+1\-\d{3}\-\d{3}\-\d{4}$')
 
 
@@ -25,9 +27,7 @@ def is_phone_num(elem):
 
 
 
-#check street types:
-
-
+# Check street types:
 
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
 
