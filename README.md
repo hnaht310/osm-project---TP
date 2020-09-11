@@ -1,7 +1,7 @@
 The project includes the following files:
 
 - <b>README.md</b>: Summary of the contents of each file included in this project.
-- <b>OpenStreetMap notebook - C750.ipynb</b>: Documenting data wrangling process and answering the rubric questions
+- <b>OpenStreetMap report - C750.html</b>: Documenting data wrangling process and answering the rubric questions
 - <b>audit.py</b>: Python code used in to audit the dataset.
 - <b>update_street_type.py</b>: The script used to clean the street names.
 - <b>update_phone_num.py</b>: The script used to clean the phone numbers.
