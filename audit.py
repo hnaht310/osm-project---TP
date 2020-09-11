@@ -5,9 +5,7 @@ import re
 
 
 # https://wiki.openstreetmap.org/wiki/Key:phone
-# phone=+<country code> <area code> <local number>, following the ITU-T E.123 and the DIN 5008 pattern
 # phone=+<country code>-<area code>-<local number>, following the RFC 3966/NANP pattern
-# fax=number may be used in the same way.
 richardson_sample = "r_sample.osm"
 richardson = "richardson.osm"
 
